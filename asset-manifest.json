@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a496daf.css",
-    "main.js": "/static/js/main.f1f018f6.js",
-    "static/js/787.cdad9f25.chunk.js": "/static/js/787.cdad9f25.chunk.js",
-    "index.html": "/index.html",
-    "static/media/reload.svg": "/static/media/reload.d013d508a422850041d693c76af61366.svg",
-    "main.6a496daf.css.map": "/static/css/main.6a496daf.css.map",
-    "main.f1f018f6.js.map": "/static/js/main.f1f018f6.js.map",
-    "787.cdad9f25.chunk.js.map": "/static/js/787.cdad9f25.chunk.js.map"
+    "main.css": "/case-generator/static/css/main.6a496daf.css",
+    "main.js": "/case-generator/static/js/main.cc41767d.js",
+    "static/js/787.cdad9f25.chunk.js": "/case-generator/static/js/787.cdad9f25.chunk.js",
+    "index.html": "/case-generator/index.html",
+    "static/media/reload.svg": "/case-generator/static/media/reload.d013d508a422850041d693c76af61366.svg",
+    "main.6a496daf.css.map": "/case-generator/static/css/main.6a496daf.css.map",
+    "main.cc41767d.js.map": "/case-generator/static/js/main.cc41767d.js.map",
+    "787.cdad9f25.chunk.js.map": "/case-generator/static/js/787.cdad9f25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a496daf.css",
-    "static/js/main.f1f018f6.js"
+    "static/js/main.cc41767d.js"
   ]
 }
