@@ -1,0 +1,47 @@
+@import '../../resources/styles';
+
+@keyframes rotate360 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.element {
+	animation: brightnessAnimation 2s infinite;
+}
+
+.svg-btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	@include defaultFont();
+	@include blurFilter();
+	border-radius: 15px;
+	padding: 10px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	&_type {
+		&_disabled {
+			.svg-btn__icon {
+				animation: rotate360 1s infinite linear;
+			}
+		}
+	}
+
+	&__title {
+		margin: 0;
+		line-height: 25px;
+		font-size: 25px;
+	}
+
+	&__icon {
+		width: 30px;
+		height: 30px;
+	}
+}
