@@ -1,0 +1,11 @@
+@mixin defaultFont() {
+	font-family: 'Roboto', serif;
+	color: $default-text-color;
+}
+
+@mixin blurFilter() {
+	backdrop-filter: blur(100px);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+$default-text-color: #1f1f1f;
